@@ -1,0 +1,30 @@
+{
+  "name": "music-folder-compiler",
+  "version": "1.0.0",
+  "description": "music folder compiler and path encrypter",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:perseusl/music-folder-compiler.git"
+  },
+  "keywords": [
+    "music",
+    "folder",
+    "encrypter"
+  ],
+  "author": "Perseus, Kath, Nessie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/perseusl/music-folder-compiler/issues"
+  },
+  "homepage": "https://github.com/perseusl/music-folder-compiler",
+  "dependecies":{
+    "musicmetadata" : "0.x.x",
+    "MD5" : "1.x.x",
+    "fs-extra" : "0.x.x",
+    "jsonfile" : "2.0.0"
+  }
+}
